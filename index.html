@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
+   
+
+</head>
+<body >  
+      <!-- Header --> 
+    <header class="header">
+
+          <div class="Infos">
+          <h3>Développeur | ديفلوبور</h3>
+          </div>
+           <h1>Dashbord</h1>
+          <div class="Buttons">
+          <button id="buttonLogin">Sign In</button>
+          <button id="buttonSignUp">Sign Up</button>
+          </div>
+    </header>
+
+
+    <div class="admin-container">
+<!-- Users Card --> 
+<div class="dashbordcard">
+    <h1>Dashboard</h1>    
+   
+    <ul> This chart represent the Data Analytics of the year, it includes:
+        <li> Visitors
+        <li> Followers
+        <li> Women Stat
+        <li> Men Stat
+    </ul>
+    <button id="Stat">More Details ...</button>
+    <div class="cardCanvasLine">
+        
+        <canvas id="l" width="1090" height="2000"></canvas>   
+       
+    </div>
+</div>
+        
+  <!-- Card --> 
+  <div class="allcard">
+     <!-- Card --> 
+     <div class="card">
+          <h2>Users (Women)</h2>
+          <div class="totalusers">
+                    <div class="visitors">
+                              <h3>2.6 K</h3>
+                              <h6>Visitors</h6>
+                    </div>
+                    <div class="followers">
+                              <h3>17.4 K</h3>
+                              <h6>Followers</h6>
+                    </div>
+          </div>
+          <h2>New Followers</h2>
+          <div class="newfollowers">
+                    <div class="women">
+                              <h3>3.8 K</h3>
+                              <h6>Girls</h6>
+                    </div>
+                    <div class="men">
+                              <h3>2.7 K</h3>
+                              <h6>Women</h6>
+                    </div>
+          </div>
+      </div>
+
+       <!-- Card --> 
+     <div class="card">
+        <h2>Users (Men)</h2>
+        <div class="totalusers">
+                  <div class="visitors">
+                            <h3>2.4 K</h3>
+                            <h6>Visitors</h6>
+                  </div>
+                  <div class="followers">
+                            <h3>15.1 K</h3>
+                            <h6>Followers</h6>
+                  </div>
+        </div>
+        <h2>New Followers</h2>
+        <div class="newfollowers">
+                  <div class="women">
+                            <h3>2.9 K</h3>
+                            <h6>Boys</h6>
+                  </div>
+                  <div class="men">
+                            <h3>2.4 K</h3>
+                            <h6>Men</h6>
+                  </div>
+        </div>
+    </div>
+</div>
+
+<div class="alluserscard">   
+      <!-- Card With Canvas --> 
+     <div class="cardCanvas">
+        
+          <canvas id="dou" width="230" height="50"></canvas> 
+        
+      </div>
+
+      <div class="cardCanvasBar">
+        
+        <canvas id="b" width="850" height="1500"></canvas> 
+      
+    </div>
+
+</div>
+
+<div class="alluserscard">   
+
+ <!-- G1 Users Card --> 
+<div class="guserscard">    
+ <!-- Users Card --> 
+ 
+ <!-- Users Card --> 
+ <div class="userscard">
+    <h2 class="users">Users</h2>    
+    <h6 class="month">- Jan - </h6>
+    <h2 class="N">2 K</h2>
+    <h6 class="perday">per day</h6>   
+
+  </div>
+
+  <!-- Users Card 2--> 
+<div class="userscard2">
+<h2 class="users">Users</h2>    
+<h6 class="month">- Feb - </h6>
+<h2 class="N">2.2 K</h2>
+<h6 class="perday">per day</h6>   
+  </div>
+
+    <!-- Users Card 3--> 
+<div class="userscard3">
+<h2 class="users">Users</h2>    
+<h6 class="month">- Mar - </h6>
+<h2 class="N">2.3 K</h2>
+<h6 class="perday">per day</h6>   
+  </div>
+<!-- Users Card 4--> 
+<div class="userscard4">
+<h2 class="users">Users</h2>    
+<h6 class="month">- Apr - </h6>
+<h2 class="N">2.6 K</h2>
+<h6 class="perday">per day</h6>   
+  </div>
+
+    </div>
+ <!-- G2 Users Card --> 
+    <div class="guserscard">    
+
+        <div class="userscard">
+            <h2 class="users">Users</h2>    
+            <h6 class="month">- May - </h6>
+            <h2 class="N">2 K</h2>
+            <h6 class="perday">per day</h6>   
+    
+          </div>
+    
+          <!-- Users Card 2--> 
+     <div class="userscard2">
+        <h2 class="users">Users</h2>    
+        <h6 class="month">- June - </h6>
+        <h2 class="N">2.8 K</h2>
+        <h6 class="perday">per day</h6>   
+          </div>
+    
+            <!-- Users Card 3--> 
+     <div class="userscard3">
+        <h2 class="users">Users</h2>    
+        <h6 class="month">- July - </h6>
+        <h2 class="N">1 K</h2>
+        <h6 class="perday">per day</h6>   
+          </div>
+      <!-- Users Card 4--> 
+      <div class="userscard4">
+        <h2 class="users">Users</h2>    
+        <h6 class="month">- Aug - </h6>
+        <h2 class="N">2 K</h2>
+        <h6 class="perday">per day</h6>   
+          </div>
+       
+           </div>
+
+           <!-- G3 Users Card --> 
+    <div class="guserscard">    
+
+
+        <!-- Users Card --> 
+        <div class="userscard">
+               <h2 class="users">Users</h2>    
+               <h6 class="month">- Sep - </h6>
+               <h2 class="N">2 K</h2>
+               <h6 class="perday">per day</h6>   
+       
+             </div>
+       
+             <!-- Users Card 2--> 
+        <div class="userscard2">
+           <h2 class="users">Users</h2>    
+           <h6 class="month">- Oct - </h6>
+           <h2 class="N">2.3 K</h2>
+           <h6 class="perday">per day</h6>   
+             </div>
+       
+               <!-- Users Card 3--> 
+        <div class="userscard3">
+           <h2 class="users">Users</h2>    
+           <h6 class="month">- Nov - </h6>
+           <h2 class="N">2.5 K</h2>
+           <h6 class="perday">per day</h6>   
+             </div>
+         <!-- Users Card 4--> 
+         <div class="userscard4">
+           <h2 class="users">Users</h2>    
+           <h6 class="month">- Dec - </h6>
+           <h2 class="N">2.9 K</h2>
+           <h6 class="perday">per day</h6>   
+             </div>
+           </div>
+        </div>
+</div>
+<script src="ss.js"></script>
+</body>
+</html>

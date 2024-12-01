@@ -1,0 +1,252 @@
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* Container */
+.admin-container {
+    display: flex;  
+    flex-wrap: wrap;
+   
+}
+
+.header{
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    box-shadow: #333;
+    padding: 10px; /* Consistent padding */
+  
+}
+.header h1 {
+    font-size:2.8em;
+    margin: 0;
+}
+
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+#buttonLogin:hover, #buttonSignUp:hover, #Stat:hover {
+    background-color: #617203e8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+#buttonLogin {
+    margin-right: -2px;
+    background-color: #ffffff;
+    color: #000;
+}
+
+#buttonSignUp {
+    margin-right: 16px;
+    background-color: #d0f309e8;
+    color: #000;
+}
+
+#Stat{
+    width: auto;
+    background-color: #d0f309e8;
+    color: #333;
+    font-size: 16px;
+    font-weight:600;
+    padding: 16px;
+}
+
+
+.Infos{
+   
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+}
+
+.Infos h3:hover{
+   
+    color: #d0f309e8;
+    cursor: pointer;
+    
+}
+
+.card{
+    align-items: center;
+    height:270px;
+    display: grid;
+    border-radius: 16px;
+    background-color: #d0f309e8;
+    color: #333;
+    width: 200px;
+    padding: 0px 10px 10px 10px;
+    margin: 15px 5px 5px 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.allcard{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+}
+.totalusers, .newfollowers{
+    margin: -25px 20px 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.totalusers h6, .newfollowers h6{
+   
+    margin-top: -35%;
+}
+
+
+
+.totalusers div,.newfollowers div{
+    display: grid;
+    place-items: center;
+}
+
+
+.userscard,.userscard2,.userscard3,.userscard4{
+
+    height: 190px;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 18px;
+    margin: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    display: grid;
+    place-items: center;
+}
+.userscard, .userscard4{
+    color:#333;
+}
+.userscard2,.userscard3{
+    color:#ffffff;
+}
+
+.userscard{
+    background-color: #93C5FD;
+}
+
+.userscard2{
+    background-color: #6B7280;
+}
+
+.userscard3{
+    background-color: #60A5FA;
+}
+
+.userscard4{
+    background-color: #CBD5E1; 
+}
+
+
+.month{
+    margin-top: -45%;
+   
+}
+.users{
+    margin-top: 10%;
+   
+}
+.perday{
+    margin-top: -55%;
+}
+.N{
+    margin-top: -5%;
+}
+
+.dashbordcard{
+   
+    height:869px;
+    width: min-content;
+    border-radius: 16px;
+    background-color: #333;
+    padding: 18px;
+    color:#ffffff;
+    margin: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    place-items: center;
+  
+}
+
+.guserscard{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.alluserscard{
+    align-items: center;
+    width: auto;
+    place-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+@media (max-width: 1114px) {
+    .admin-container , .header{
+        justify-content: center;
+        align-items: center;
+    }
+    .guserscard{
+    
+        flex-wrap: wrap;
+    }
+
+    .admin-container {
+        font-size: 14px; /* Decrease font size for smaller screens */
+        padding: 10px;   /* Reduce padding for better spacing */
+    }
+
+    
+}
+.card:hover, .userscard:hover, .userscard2:hover, .userscard3:hover, .userscard4:hover , .cardCanvasBar:hover,.cardCanvas:hover,.cardCanvasLine:hover {
+    transform: scale(1.12);
+   
+}
+
+.cardCanvas,.cardCanvasLine,.cardCanvasBar{
+    border-radius: 16px;
+    padding: 10px;
+    margin: 15px 20px 0px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+.cardCanvas{
+    height:200px;
+    background-color: #062950;
+}
+.cardCanvasLine{
+    height:330px;
+    background-color: #ffffff;   
+}
+
+.cardCanvasBar{
+    height:350px;
+    background-color: #e3e4e6;
+}
